@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 40px;
+      color: #333;
+    }
+
+    .header-time {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 46px;
+      color: #008c9e;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+
+    .meta-table {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .meta-table td.label {
+      width: 250px;
+      font-weight: bold;
+      color: #828282;
+      padding: 6px 0;
+    }
+
+    .meta-table td.value {
+      color: #a2a2a2;
+      padding: 6px 0;
+    }
+
+    h2 {
+      color: #008c9e;
+      margin-top: 40px;
+      margin-bottom: 5px;
+    }
+
+    .sub {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .battery-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .info-table {
+      width: 60%;
+      border-collapse: collapse;
+    }
+
+    .info-table td {
+      padding: 6px 0;
+    }
+
+    .info-table td.label {
+      width: 250px;
+      font-weight: bold;
+      color: #828282;
+    }
+
+    .info-table td.value {
+      color: #a2a2a2;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header-time">{{HEADER_TIME}}</div>
+  <div class="title">Battery report</div>
+
+  <table class="meta-table">
+    {{META_ROWS}}
+  </table>
+
+  <h2>Installed batteries</h2>
+  <div class="sub">Information about each currently installed battery</div>
+
+  <div class="battery-title">BATTERY 1</div>
+
+  <table class="info-table">
+    {{BATTERY_ROWS}}
+  </table>
+
+</body>
+</html>
