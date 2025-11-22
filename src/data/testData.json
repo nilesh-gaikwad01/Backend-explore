@@ -1,0 +1,55 @@
+{
+  "reportTitle": "Shift Report : Morning (2025-11-21)",
+  "sections": [
+    {
+      "key": "Batches",
+      "columns": ["Mixers", "Target", "Actual", "Morning", "Afternoon", "Night", "Daily", "Weekly", "MTD", "Morning Comment", "Afternoon Comment", "Night Comment"],
+      "rows": [
+        {"Mixers":"Total","Target":21,"Actual":15,"Morning":14,"Afternoon":1,"Night":0,"Daily":37.88,"Weekly":146.52,"MTD":628.15,"Morning Comment":"","Afternoon Comment":"","Night Comment":""},
+        {"Mixers":"Mixer01","Target":10,"Actual":4,"Morning":4,"Afternoon":0,"Night":0,"Daily":9.2,"Weekly":78.2,"MTD":240.35,"Morning Comment":"","Afternoon Comment":"","Night Comment":""},
+        {"Mixers":"Mixer02","Target":11,"Actual":11,"Morning":10,"Afternoon":1,"Night":0,"Daily":28.68,"Weekly":68.32,"MTD":387.8,"Morning Comment":"","Afternoon Comment":"","Night Comment":""}
+      ]
+    },
+
+    {
+      "key": "Cylinders",
+      "columns": ["Products","Target","Actual","Morning","Afternoon","Night","55/59","68/73","90M","Afternoon Comment","Morning Comment","Night Comment"],
+      "rows": [
+        {"Products":"BRIQ","Target":10,"Actual":4,"Morning":4,"Afternoon":0,"Night":0,"55/59":0,"68/73":0,"90M":4,"Afternoon Comment":"","Morning Comment":"PH1 inlet gate faulty","Night Comment":""},
+        {"Products":"D500","Target":7,"Actual":1,"Morning":0,"Afternoon":1,"Night":0,"55/59":0,"68/73":0,"90M":0,"Afternoon Comment":"","Morning Comment":"","Night Comment":""},
+        {"Products":"D700","Target":4,"Actual":10,"Morning":10,"Afternoon":0,"Night":0,"55/59":0,"68/73":0,"90M":0,"Afternoon Comment":"","Morning Comment":"","Night Comment":""}
+      ]
+    },
+
+    {
+      "key": "Quality",
+      "columns": ["Parameters","Target","Actual","Morning","Afternoon","Night","Morning Comment","Afternoon Comment","Night Comment"],
+      "rows": [
+        {"Parameters":"Ballmill","Target":40,"Actual":41.83,"Morning":41.83,"Afternoon":0,"Night":0,"Morning Comment":"","Afternoon Comment":"","Night Comment":""},
+        {"Parameters":"Intermediate","Target":0,"Actual":0,"Morning":0,"Afternoon":0,"Night":0,"Morning Comment":"","Afternoon Comment":"","Night Comment":""}
+      ]
+    },
+
+    {
+      "key": "Abatement",
+      "columns": ["Parameters","Morning","Afternoon","Night","Daily","Day Pollution","Afternoon Comment","Morning Comment","Night Comment"],
+      "rows": [
+        {"Parameters":"CTPV01","Morning":86.35,"Afternoon":100,"Night":0,"Daily":93.18,"Day Pollution":3307.17,"Afternoon Comment":"","Morning Comment":"","Night Comment":""},
+        {"Parameters":"CTPV02","Morning":66.28,"Afternoon":97.57,"Night":0,"Daily":81.93,"Day Pollution":3.73,"Afternoon Comment":"","Morning Comment":"off take manifold burst detection 03.","Night Comment":""},
+        {"Parameters":"Gasplant01","Morning":6.32,"Afternoon":0,"Night":0,"Daily":6.32,"Day Pollution":0.28,"Afternoon Comment":"","Morning Comment":"","Night Comment":""},
+        {"Parameters":"Stack01","Morning":13.12,"Afternoon":2.56,"Night":0,"Daily":7.84,"Day Pollution":"","Afternoon Comment":"","Morning Comment":"","Night Comment":""},
+        {"Parameters":"SDDS","Morning":100,"Afternoon":100,"Night":0,"Daily":100,"Day Pollution":"","Afternoon Comment":"","Morning Comment":"","Night Comment":""}
+      ]
+    },
+
+    {
+      "key": "Calciners",
+      "columns": ["Parameters","Calciner 01","Calciner 02","Calciner 03","Calciner 04","Calciner 05","Calciner 06","Afternoon Comment","Morning Comment","Night Comment"],
+      "rows": [
+        {"Parameters":"Uptime","Calciner 01":88.57,"Calciner 02":0,"Calciner 03":0.02,"Calciner 04":0,"Calciner 05":0,"Calciner 06":0,"Afternoon Comment":"","Morning Comment":"Calciner 3 arc and calciner 2 load cell still outstanding.","Night Comment":""},
+        {"Parameters":"Resistivity","Calciner 01":633,"Calciner 02":"","Calciner 03":"","Calciner 04":"","Calciner 05":"","Calciner 06":"","Afternoon Comment":"","Morning Comment":"","Night Comment":""},
+        {"Parameters":"Throughput","Calciner 01":577.97,"Calciner 02":0,"Calciner 03":0,"Calciner 04":0,"Calciner 05":0,"Calciner 06":0,"Afternoon Comment":"","Morning Comment":"","Night Comment":""}
+      ]
+    }
+  ]
+}
